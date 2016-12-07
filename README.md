@@ -1,6 +1,11 @@
 # Convex-Hulls
 A test suite for various solutions to the Convex Hull problem.
 
+## Directions
+Run `python tests.py` to generate 18 .json files containing time results of each algorithm/dataset combination. Note that this will take a couple of hours at least.
+
+Run `python unpack.py` to convert .json files into a series of plots comparing runtime with asymptotic curves. 
+
 ## Algorithms
 Graham's Scan
 
